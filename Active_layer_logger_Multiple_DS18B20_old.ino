@@ -4,7 +4,7 @@ ACTIVE LAYER DATALOGGER
 
 Version: 22/07/2021
 Power consumption: Sleeping 0.005 mah and saving data 120 mah (during 500 miliseconds)
-A 3000 mah 18650 battery should last more than a year saving data at 30 minutes interval (indeed in a wondeful world should last almost 3 years!!)
+A 3000 mah 18650 battery should last more than a year saving data at 30 minutes interval (indeed in a wonderful world should last almost 3 years!!)
 http://oregonembedded.com/batterycalc.htm
 
 HARDWARE:
