@@ -1,6 +1,6 @@
 /*
 ACTIVE LAYER DATALOGGER
-//New version: Logger wakes up with DS3231 alarm. Thus, data is recorded in accurate intervals.
+//New version: Logger wakes up with DS3231 alarm. Thus, data is recorded at accurate intervals.
 
 Version: 22/07/2021
 Power consumption: Sleeping 0.018 mah and saving data 60 mah (during 500 miliseconds)
