@@ -29,7 +29,7 @@ Data is saved in CSV format without headers (logger run outs of SRAM with more t
 -Column X1: Temp DS3231 Clock
 -Column X2: Battery Voltage
 
-#The log interval is set by default to 30 minutes.  It can be changed from settings.txt file and restarting the logger (no need to upload de code again!)
+#The log interval is set by default to 5 seconds.  It can be changed from settings.txt file and restarting the logger (no need to upload de code again!)
 #First data is saved the nearest hour. Example: If logger is turned on at 14:20:0 the first record will occurr at 15:0:0
 #Datetime is saved in unix format to avoid time zone issues
 
