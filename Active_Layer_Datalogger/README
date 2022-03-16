@@ -1,2 +1,3 @@
 ### Datalogger created to monitor permafrost using DS18B20 sensors soldered in long PCBs
-The PDF file explains the code sequence and show the datalogger components
+The file Datalogger_code_libraries_hardware.pdf explains the code sequence and show the 
+datalogger components
