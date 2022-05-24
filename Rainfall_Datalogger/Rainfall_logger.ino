@@ -1,7 +1,7 @@
 /*
 RAINFALL DATALOGGER
 
-Version: 29/04/2022
+Version: 24/05/2022
 Power consumption: Sleeping 21.28 microamperes and saving data 105 mah (during 500 miliseconds)
 A 3000 mah 18650 battery should last more than a year in a very rainy environment like Valdivia!!
 http://oregonembedded.com/batterycalc.htm
