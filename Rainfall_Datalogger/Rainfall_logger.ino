@@ -188,7 +188,7 @@ void logData()
     
   digitalWrite(power_GRD_NPN, HIGH); //NPN transistor are on when HIGH
   digitalWrite(power_VCC_PNP, LOW); //PNP transistor are on when LOW
-  delay(400);
+  delay(50);
 
  
   //Clock
@@ -198,6 +198,7 @@ void logData()
   //SD CARD
  
   SD.begin(CS);
+  delay(50);
   mySensorData = SD.open(loggerID, FILE_WRITE);
   while (mySensorData)
   {
@@ -260,6 +261,9 @@ void logData()
     
  digitalWrite(power_GRD_NPN, LOW); //NPN transistors are off when LOW
  digitalWrite(power_VCC_PNP, HIGH); //PNP transistors are off when HIGH
+   
+ //Give time to save data
+ delay(200);
 
   }
 
