@@ -396,7 +396,7 @@ void logData()
     SPI.end();
 
     //GIVE TIME TO SAVE DATA
-    delay(500); 
+    delay(250); 
 
     //TURN OFF TRANSISTORS
 
