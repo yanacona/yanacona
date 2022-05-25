@@ -2,7 +2,7 @@
 ACTIVE LAYER DATALOGGER
 //Old version: wakes up with Arduino clock, not with DS3231 alarm.
 
-Version: 22/07/2021
+Version: 24/05/2022
 Power consumption: Sleeping 0.005 mah and saving data 120 mah (during 500 miliseconds)
 A 3000 mah 18650 battery should last more than a year saving data at 30 minutes interval (indeed in a wondeful world should last almost 3 years!!)
 http://oregonembedded.com/batterycalc.htm
@@ -375,7 +375,7 @@ void logData()
     Wire.end();
 
     //GIVE TIME TO SAVE DATA
-    delay(1000); 
+    delay(250); 
 
   //TURN OFF TRANSISTORS (turn of current)
     
